@@ -1,0 +1,33 @@
+{
+  "name": "nodeHCC",
+  "version": "0.5.0",
+  "description": "Node.js wrapper for the HOPE command line compiler (HCC)",
+  "main": "nodeHCC.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "install": "node install.js"
+    "test": "echo \"Error: no test specified\" && exit 1"    
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Walibeiro/nodeHCC.git"
+  },
+  "keywords": [
+    "Hope",
+    "Object Pascal",
+    "JavaScript",
+    "Compiler",
+    "DWScript"
+  ],
+  "author": "Walison Ribeiro da Silva",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Walibeiro/nodeHCC/issues"
+  },
+  "homepage": "https://github.com/Walibeiro/nodeHCC#readme",
+  "preferGlobal": true,
+  "bin": {
+    "nodeHCC": "nodeHCC.js"
+  }
+}
