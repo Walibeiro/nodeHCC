@@ -9,10 +9,15 @@
 
 'use strict';
 
-const
-    spawn = require( 'child_process' ).spawn,
-    hcc = spawn( 'HCC');
+var path = require('path');
+var binPath = path.join(__dirname, 'bin');
+var binLocation = path.join(binPath, 'HCC.exe');
 
+const
+  spawn = require('child_process').spawn,
+  hcc = spawn(binLocation);
+
+/*
 hcc.stdout.on( 'data', data => {
     console.log( `stdout: ${data}` );
 });
@@ -24,3 +29,4 @@ hcc.stderr.on( 'data', data => {
 hcc.on( 'close', code => {
     console.log( `child process exited with code ${code}` );
 });
+*/
